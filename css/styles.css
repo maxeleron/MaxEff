@@ -44,10 +44,10 @@ nav#items {
 nav#items a{
 	/*Properties*/
 	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	width: 150px;
 	height: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	/*View*/
 	border: 3px solid #000111;
 	/*Position*/
