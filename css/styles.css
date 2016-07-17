@@ -38,7 +38,7 @@ nav#items {
 	/*Position*/
 	position: absolute;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 nav#items a{
@@ -59,7 +59,6 @@ nav#items a{
 }
 
 #mainNav{
-	margin-left: 0px;
 	background: white;
 }
 #pomodoroNav{
@@ -75,10 +74,9 @@ nav#items a{
 nav#loggining {
 	/*Properties*/
 	display: block;
-	width: 400px;
-	background: red;
 	/*Position*/
 	float: right;
+	margin-right: 40px;
 	margin-top: 20px;
 }
 
@@ -93,17 +91,17 @@ nav#loggining a{
 	border: 3px solid #000111;
 	/*Position*/
 	position: relative;
-	float: left;
-	margin-left: 20px;
+	float: right;
 	/*Font*/
 	color: #000;
 }
 
 #login {
-	margin-left: 0px;
+	margin-right: 0px;
 	background: white;
 }
 #signUp {
+	margin-right: 20px;
 	background: white;
 }
 /*Header END*/

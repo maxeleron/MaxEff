@@ -1,0 +1,45 @@
+/*All Pomodoro_page BEGIN*/
+* {}
+
+body {}
+/*All Pomodoro_page END*/
+/*Main BEGIN*/
+#pageMain {
+	/*Properties*/
+	height: 550px;
+	width: 100%;
+	/*padding: 0px 40px;*/
+	/*View*/
+	background: white;
+	/*Position*/
+	position: absolute;
+	/*margin-left: 40px;
+	margin-right: 40px;*/
+}
+
+#pomodoroApp {
+	/*Properties*/
+	height: 550px;
+	width: calc(100% - 380px);
+	/*View*/
+	background: green;
+	/*Position*/
+	position: relative;
+	float: left;
+	margin-left: 40px;
+}
+#info {
+	/*Properties*/
+	height: 550px;
+	width: 300px;
+	/*View*/
+	background: red;
+	/*Position*/
+	position: relative;
+	float: right;
+	margin-right: 40px;
+}
+/*Main END*/
+/*Footer BEGIN*/
+
+/*Footer END*/
