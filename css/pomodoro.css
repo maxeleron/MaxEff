@@ -20,7 +20,7 @@ body {}
 #pomodoroApp {
 	/*Properties*/
 	height: 550px;
-	width: calc(100% - 380px);
+	width: calc(100% - 430px);
 	/*View*/
 	background: green;
 	/*Position*/
@@ -31,7 +31,7 @@ body {}
 #info {
 	/*Properties*/
 	height: 550px;
-	width: 300px;
+	width: 350px;
 	/*View*/
 	background: red;
 	/*Position*/
