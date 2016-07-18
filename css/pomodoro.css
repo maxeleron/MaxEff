@@ -22,7 +22,6 @@ body {}
 	height: 550px;
 	width: calc(100% - 430px);
 	/*View*/
-	background: green;
 	/*Position*/
 	position: relative;
 	float: left;
@@ -33,7 +32,6 @@ body {}
 	height: 550px;
 	width: 350px;
 	/*View*/
-	background: red;
 	/*Position*/
 	position: relative;
 	float: right;
