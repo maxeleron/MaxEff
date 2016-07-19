@@ -10,7 +10,7 @@ body {}
 	width: 100%;
 	/*padding: 0px 40px;*/
 	/*View*/
-	background: white;
+	background: inherit;
 	/*Position*/
 	position: absolute;
 	/*margin-left: 40px;
@@ -19,9 +19,10 @@ body {}
 
 #pomodoroApp {
 	/*Properties*/
-	height: 550px;
+	height: 100%;
 	width: calc(100% - 430px);
 	/*View*/
+	background: red;
 	/*Position*/
 	position: relative;
 	float: left;
@@ -29,9 +30,10 @@ body {}
 }
 #info {
 	/*Properties*/
-	height: 550px;
+	height: 100%;
 	width: 350px;
 	/*View*/
+	background: yellow;
 	/*Position*/
 	position: relative;
 	float: right;
@@ -39,5 +41,28 @@ body {}
 }
 /*Main END*/
 /*Footer BEGIN*/
+#footerBox {
+	/*Properties*/
+	height: 130px;
+	width: 100%;
+	/*View*/
+	/*Position*/
+	clear: both;
+	position: absolute;
+	margin-top: 550px;
+}
+
+#pageFooter{
+	/*Properties*/
+	height: 100%;
+	width: calc(100%-80px);
+	/*View*/
+	background: violet;
+	/*Position*/
+	clear: both;
+	position: absolute;
+	margin-left: 40px;
+	margin-right: 40px;
+}
 
 /*Footer END*/
