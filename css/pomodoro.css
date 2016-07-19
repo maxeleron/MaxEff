@@ -55,12 +55,12 @@ body {}
 #pageFooter{
 	/*Properties*/
 	height: 100%;
-	width: calc(100%-80px);
+	width: calc(100% - 80px);
 	/*View*/
 	background: violet;
 	/*Position*/
 	clear: both;
-	position: absolute;
+	position: relative;
 	margin-left: 40px;
 	margin-right: 40px;
 }
