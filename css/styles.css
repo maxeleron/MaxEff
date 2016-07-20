@@ -28,21 +28,9 @@ body {
 	height: 60px;
 	/*Position*/
 	position: relative;
-	/*Font*/
-	color: #000;
-	line-height: 25px;
-	font-size: 25px;
-	text-align: center;
 }
 
-nav#items {
-	/*Position*/
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 20px;
-}
-
-nav#items a{
+.navButton {
 	/*Properties*/
 	display: block;
 	width: 150px;
@@ -50,47 +38,69 @@ nav#items a{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	/*View*/
-	/*border-top: 3px solid #000111;
-	border-bottom: 3px solid #000111;*/
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+	/*Font*/
+	color: #141C26;
+	line-height: 25px;
+	font-size: 25px;
+	text-align: center;
+}
+.navButton:hover {
+	cursor: pointer;
+}
+
+#appNavConteiner {
+	/*Position*/
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.appNav {
 	/*Position*/
 	position: relative;
 	float: left;
 	margin-left: 20px;
-	/*Font*/
-	color: #000;
 }
 
 #mainNav{
 	background: #E3F2DE;
-	border-top: 3px solid #000;
-	border-bottom: 3px solid #000;
+	border-color: #141C26;
 }
+#mainNav:hover {
+	background: #9BC5EF;
+	border-color: #021575;
+}
+
 #pomodoroNav{
-	background: #F26E3A;
-	background: #FF9900;
-	background: #FF822E;
-	background: #FF8258;
 	background: #E8C576;
-
-	border-top: 3px solid #FFF;
-	border-bottom: 3px solid #FFF;
-
-	border-color: #FF6600;
 	border-color: #EF5411;
-	color: #141C26;
 }
+#pomodoroNav:hover {
+	background: #9BC5EF;
+	border-color: #021575;
+}
+
 #planerNav{
 	background: red;
-	border-top: 3px solid #DC2D00;
-	border-bottom: 3px solid #DC2D00;
+	border-color: #DC2D00;
 }
-#suggservNav{
-	background: #FFFF00;
-	border-top: 3px solid #DC2D00;
-	border-bottom: 3px solid #DC2D00;
+#planerNav:hover {
+	background: #9BC5EF;
+	border-color: #021575;
 }
 
-nav#loggining {
+#suggservNav{
+	background: #FFFF00;
+	border-color: #DC2D00;
+}
+#suggservNav:hover {
+	background: #9BC5EF;
+	border-color: #021575;
+}
+
+#loggingConteiner {
 	/*Properties*/
 	display: block;
 	/*Position*/
@@ -99,22 +109,19 @@ nav#loggining {
 	margin-top: 10px;
 } 
 
-nav#loggining a{
-	/*Properties*/
-	display: block;
-	width: 150px;
-	height: 25px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.logNav {
 	/*View*/
 	background: #E3F2DE;
-	border-top: 3px solid #000;
-	border-bottom: 3px solid #000;
+	border-color: #141C26;
 	/*Position*/
 	position: relative;
 	float: right;
-	/*Font*/
-	color: #000;
+}
+.logNav:hover {
+	/*View*/
+	background: #9BC5EF;
+	border-color: #021575;
+	cursor: pointer;
 }
 
 #login {

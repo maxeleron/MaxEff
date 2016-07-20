@@ -13,19 +13,17 @@ body {}
 	background: inherit;
 	/*Position*/
 	position: absolute;
-	/*margin-left: 40px;
-	margin-right: 40px;*/
 }
 
 #pomodoroApp {
 	/*Properties*/
 	height: calc(100% - 6px);
-	width: calc(100% - 430px);
+	width: calc(100% - 480px);
 	/*View*/
 	background: #E8C576;
 
-	border-top: 3px solid orange;
-	border-bottom: 3px solid orange;
+	border-top: 3px solid;
+	border-bottom: 3px solid;
 	border-color: #EF5411;
 	/*Position*/
 	position: relative;
@@ -35,9 +33,8 @@ body {}
 #pomodoroInfo {
 	/*Properties*/
 	height: calc(100% - 6px);
-	width: 350px;
+	width: 400px;
 	/*View*/
-	background: #7981AA;
 	background: #898C92;
 	background: #805493;
 	background: #C950FF;
@@ -76,5 +73,4 @@ body {}
 	margin-left: 40px;
 	margin-right: 40px;
 }
-
 /*Footer END*/
