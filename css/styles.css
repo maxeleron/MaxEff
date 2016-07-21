@@ -18,7 +18,8 @@ body {
 	font-family: Roboto, sans-serif;
 	line-height: 1.154em;
 	font-weight: 400;
-	min-width: 1300px;
+	/*min-width: 1300px;*/
+	height: 768px;
 }
 /*All page END*/
 /*Header BEGIN*/
@@ -40,6 +41,11 @@ body {
 	/*View*/
 	border-top: 3px solid;
 	border-bottom: 3px solid;
+	/*Behaviour*/
+	-moz-user-select: none;
+	-khtml-user-select: none; 
+	-webkit-user-select: none;
+	user-select: none;
 	/*Font*/
 	color: #141C26;
 	line-height: 25px;
