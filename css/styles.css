@@ -93,8 +93,8 @@ body {
 	border-color: #DC2D00;
 }
 #planerNav:hover {
-	background: #9BC5EF;
-	border-color: #021575;
+	background: #E80C7A;
+	border-color: #FF0000;
 }
 
 #suggservNav{
@@ -102,8 +102,8 @@ body {
 	border-color: #DC2D00;
 }
 #suggservNav:hover {
-	background: #9BC5EF;
-	border-color: #021575;
+	background: #FFBB58;
+	border-color: #FFC21E;
 }
 
 #loggingConteiner {
