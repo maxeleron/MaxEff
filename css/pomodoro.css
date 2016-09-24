@@ -1,38 +1,27 @@
 /*All Pomodoro_page BEGIN*/
-* {}
-
-body {}
+* {
+	margin: 0px;
+	padding: 0px;
+}
 /*All Pomodoro_page END*/
 /*Main BEGIN*/
 #pageMain {
 	/*Properties*/
-	display: block;
-	height: 550px;
-	width: 100%;
 	/*View*/
 	background: inherit;
 	/*Position*/
-	position: absolute;
 }
 
 /*PomodoroApp BEGIN*/
 #pomodoroApp {
 	/*Properties*/
-	height: calc(100% - 6px);
-	width: calc(100% - 480px);
+	/*height: 330px;*/
 	/*View*/
 	background: #E8C576;
-
-	border-top: 3px solid;
-	border-bottom: 3px solid;
-	border-color: #EF5411;
 	/*Position*/
-	position: relative;
-	float: left;
-	margin-left: 40px;
 }
 
-.pomodoroBox {
+/*.pomodoroBox {
 	height: 400px;
 	width: 300px;
 	margin-top: 80px;
@@ -65,50 +54,22 @@ body {}
 	background: blue;
 	float: left;
 	margin-left: 360px;
-}
+}*/
 /*PomodoroApp END*/
 
 #pomodoroInfo {
 	/*Properties*/
-	height: calc(100% - 6px);
-	width: 400px;
 	/*View*/
-	background: #898C92;
-	background: #805493;
-	background: #C950FF;
-
-	border-top: 3px solid #321A4A;
-	border-bottom: 3px solid #321A4A;
+	/*background: #C950FF;*/
 	/*Position*/
-	position: relative;
-	float: right;
-	margin-right: 40px;
 }
 /*Main END*/
 /*Footer BEGIN*/
-#footerBox {
+#pageFooter {
 	/*Properties*/
-	height: 130px;
-	width: 100%;
 	/*View*/
 	/*Position*/
-	margin-top: 560px;
-	position: absolute;
+	margin-top: 20px;
 	/*margin-top: 550px;*/
-}
-
-#pageFooter{
-	/*Properties*/
-	height: calc(100% - 6px);
-	width: calc(100% - 80px);
-	/*View*/
-	background: #707070;
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
-	/*Position*/
-	clear: both;
-	position: relative;
-	margin-left: 40px;
-	margin-right: 40px;
 }
 /*Footer END*/
