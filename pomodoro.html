@@ -14,24 +14,27 @@
 <body>
 	<header id="pageHeader">
 		<div id="appNavContainer" class="w3-row"></div>
-			<div class="w3-col w3-left w3-container w3-blue" style="width:40px"><p>100px</p></div>
-			<div class="w3-col w3-right w3-container w3-blue" style="width:40px"><p>100px</p></div>
-			<nav id="appNav" class="w3-rest w3-navbar w3-white w3-border w3-center ">
+			<div class="w3-col w3-left w3-container w3-hide-small" style="width:40px"></div>
+			<div class="w3-col w3-right w3-container w3-hide-small" style="width:40px"></div>
+			<nav id="appNav" class="w3-rest w3-navbar w3-white w3-center">
 				<li><a id="mainNav" class="navButton w3-padding-8 " href="">Main</a></li>
 				<li><a id="pomodoroNav" class="navButton w3-padding-8">Pomodoro</a></li>
-				<li><a id="planerNav" class="navButton w3-padding-8" href="">Task-Crash</a></li>
-				<li><a id="suggservNav" class="navButton w3-padding-8" href="">LTips</a></li>
-			
-				<li class="w3-right"><a id="signUp" class="logNav navButton w3-right">Sign Up</a></li>
-				<li class="w3-right"><a id="login" class="logNav navButton">Login</a></li>
+				<li><a id="taskNav" class="navButton w3-padding-8" href="">Task-Crash</a></li>
+				<li><a id="lTipsNav" class="navButton w3-padding-8" href="">LTips</a></li>
+				<li class="w3-right w3-blue w3-hover-green"><a id="login" class="logNav navButton">Login</a></li>
 			</nav>
-			
 	</header>
-	<div class="w3-row">
-		<div class="w3-col l1 s6 w3-dark-grey w3-center"><p>l4 s6</p></div>
-	 	<div class="w3-col l10 s6 w3-pink w3-center"><p>l8 s6</p></div>
-		<div class="w3-col l1 s6 w3-dark-grey w3-center"><p>l4 s6</p></div>
-	</div>
+	<!--I`ll fix noscript message later-->
+	<noscript class="w3-row">
+		<div class="w3-col w3-left w3-container" style="width:40px"></div>
+		<div class="w3-col w3-right w3-container" style="width:40px"></div>
+		<div class="w3-rest w3-panel w3-red" style='display: block; font-size:16px;'>
+			<span class="w3-closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+			<h3 class="w3-padding-8">Danger!</h3>
+			<p class="w3-padding-8">Unfortunantly your browser doesn`t support JavaScript and this is why my application will not work.
+			</p>
+		</div>
+	</noscript>
 	<main id="pageMain">
 		<div id="pomodoroApp">
 			<div id="orangePomodoroBox" class="pomodoroBox">
@@ -49,7 +52,7 @@
 		</aside>
 	</main>
 	<footer id="footerBox">
-		<div id="pageFooter"></div>
+		<div id="pageFooter">dsfsdfasdf dfsdf</div>
 	</footer>
     <!-- Including JS -->
     <script type="text/javascript" src="js/scripts.js"></script>
