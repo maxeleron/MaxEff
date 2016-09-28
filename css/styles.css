@@ -27,6 +27,31 @@ body {
 	/*padding-left: 40px;
 	padding-right: 40px;*/
 }
+#siteNavbar {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	text-align:center
+}
+
+#siteNavbar li {
+	float:left;
+}
+
+#siteNavbar li a {
+	display:block;
+	padding:8px 16px;
+}
+
+#siteNavbar li a:hover{color:#000;background-color:#ccc}
+	/*Position*/
+	/*position: relative;
+	float: left;
+	margin-left: 20px;*//*20*/
+
+#siteNavbar a {-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s}
+
 
 .navButton {
 	/*Properties*/
@@ -60,10 +85,5 @@ body {
 	margin-left: 20px;*/
 }
 
-.appNav {
-	/*Position*/
-	/*position: relative;
-	float: left;
-	margin-left: 20px;*//*20*/
-}
+
 /*Header END*/
