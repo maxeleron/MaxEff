@@ -16,11 +16,11 @@
 		<div id="appNavContainer" class=""></div>
 			<nav id="siteNavbar" class=" w3-white ">
 			<!--w3-navbar w3-center-->
-				<li><a id="mainNav" class="navButton w3-padding-8 " href="">Main</a></li>
-				<li><a id="pomodoroNav" class="navButton w3-padding-8">Pomodoro</a></li>
-				<li><a id="taskNav" class="navButton w3-padding-8" href="">Task-Crash</a></li>
-				<li><a id="lifeTipsNav" class="navButton w3-padding-8" href="">Life Tips</a></li>
-				<li class="w3-right w3-blue w3-hover-green"><a id="login" class="logNav navButton">Login</a></li>
+				<li class="navElement"><a id="mainNav" class="navButton textSelectNone hoverAnimation w3-padding-8 " href="">Main</a></li>
+				<li class="navElement"><a id="pomodoroNav" class="navButton textSelectNone hoverAnimation w3-padding-8">Pomodoro</a></li>
+				<li class="navElement"><a id="taskNav" class="navButton textSelectNone hoverAnimation w3-padding-8" href="">Task-Crash</a></li>
+				<li class="navElement"><a id="lifeTipsNav" class="navButton textSelectNone hoverAnimation w3-padding-8" href="">Life Tips</a></li>
+				<li class="w3-right navElement w3-blue"><a id="login" class="logNav navButton textSelectNone">Login</a></li>
 			</nav>
 	</header>
 	<!--I`ll fix noscript message later-->
@@ -33,31 +33,43 @@
 	</noscript>
 	<main id="pageMain" class="">
 		<div id="pomodoroApp" class="w3-amber flex-container">
-			<div id="orangePomodoroBox" class="pomodoroBox flex-item">
+			<div id="orangePomodoroBox" class="pomodoroBox flex-item w3-card-8">
 				<div id="workCover" class="workImg">
-					<img src="images/coverPomodoro.jpg" alt="">
+					<img src="images/coverPomodoro.jpg" alt="" class="pomodoroImg">
 				</div>
 				<div id="workBackground" class="workImg"></div>
-				<div id="workTimer"></div>
-				<button id="startWorkButton">Start work</button>
+				<div id="workTimer" class="timer textSelectNone"><span id="workMinutes">25</span>:<span id="workSeconds">00</span></div>
+				<a id="startWorkButton" class="button textSelectNone">Start work</a>
 			</div>
-			<div id="bluePomodoroBox" class="pomodoroBox flex-item" >	
-				<img src="images/coverPomodoro.jpg" alt="">
-				<button id="startWorkButton">Start break</button>
+			<div id="bluePomodoroBox" class="pomodoroBox flex-item w3-card-8" >	
+				<img src="images/coverPomodoro.jpg" alt="" class="pomodoroImg">
+				<div id="breakTimer" class="timer textSelectNone"><span id="breakMinutes">5</span>:<span id="breakSeconds">00</span></div>
+				<a id="startWorkButton" class="button textSelectNone">Start break</a>
 			</div>
 			<div id="pomodoroInfo" class="flex-item">
 				<header id="infoHeader">What is Pomodoro tech?</header>
-				<main id="infoHeader">The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.[1] The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student.[2][3] The method is based on the idea that frequent breaks can improve mental agility.</main>
+				<main id="infoMain">The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.[1] The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student.[2][3] The method is based on the idea that frequent breaks can improve mental agility.</main>
 				<footer id="infoFooter">
-				<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">Link to Wikipedia</a>
+				<a id="srcInfoLink" href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">Link to Wikipedia</a>
 				</footer>
 			</div>
 		</div>	
 		
 	</main>
-	<footer id="pageFooter" class="">
-		<div class="w3-rest w3-black w3-padding-16">
-		dsfsdfds
+	<footer id="pageFooter" class="flex-container-footer">
+		<ul id="contactBox" class="flex-item w3-card-8">
+			<span class="textSelectNone">Contact Author</span>
+			<li class="contactElement" title="Press it to write an e-mail"><a href="mailto:maxeleron@gmail.com">maxeleron@gmail.com</a></li>
+			<li class="contactElement"><span class="textSelectNone">Phone: </span>+380631718155</li>	
+		</ul>	
+		<div id="shareBox" class="flex-item">
+			<li class="shareElement"><a id="fbShare" class="shareButton textSelectNone hoverAnimation w3-padding-8 " href="">Facebook</a></li>
+			<li class="shareElement"><a id="twShare" class="shareButton textSelectNone hoverAnimation w3-padding-8">Twitter</a></li>
+			<li class="shareElement"><a id="vkShare" class="shareButton textSelectNone hoverAnimation w3-padding-8" href="">VK</a></li>
+			<li class="shareElement"><a id="gpShare" class="shareButton textSelectNone hoverAnimation w3-padding-8" href="">Google+</a></li>
+		</div>
+		<div id="gitHubProfileBox" class="flex-item w3-card-8">
+			<a id="gitHubProfileLink" href="https://github.com/maxeleron/">Me on GitHub</a>
 		</div>
 	</footer>
     <!-- Including JS -->

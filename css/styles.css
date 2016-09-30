@@ -8,6 +8,19 @@
    text-decoration: none;
 }
 
+.textSelectNone{
+	-moz-user-select: none;
+	-khtml-user-select: none; 
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+.hoverAnimation{
+	-webkit-transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+	transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+}
+
 body {
 	/*View*/
 	background: white;
@@ -32,50 +45,29 @@ body {
 	margin:0;
 	padding:0;
 	overflow:hidden;
-	text-align:center
+	text-align:center;
 }
 
-#siteNavbar li {
+.navElement{
 	float:left;
 }
 
-#siteNavbar li a {
-	display:block;
-	padding:8px 16px;
-}
-
-#siteNavbar li a:hover{color:#000;background-color:#ccc}
-	/*Position*/
-	/*position: relative;
-	float: left;
-	margin-left: 20px;*//*20*/
-
-#siteNavbar a {-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s}
-
-
 .navButton {
 	/*Properties*/
-	/*display: block;
-	width: 150px;
-	height: 40px;*/
-	/*padding-top: 5px;
-	padding-bottom: 5px;*/
 	/*View*/
-	/*border-top: 3px solid;
-	border-bottom: 3px solid;*/
 	/*Behaviour*/
-	-moz-user-select: none;
-	-khtml-user-select: none; 
-	-webkit-user-select: none;
-	user-select: none;
 	/*Font*/
 	color: #141C26;
 	line-height: 22px;
 	font-size: 22px;
+	display:block;
+	padding:8px 16px;
 	/*text-align: center;*/
 }
 .navButton:hover {
 	cursor: pointer;
+	color:#000;
+	background-color:#ccc;
 }
 
 #appNavConteiner {

@@ -12,6 +12,13 @@
 	display: -webkit-flex;
 	display: flex;
 }
+
+.flex-container-footer{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
+
 /*All Pomodoro_page END*/
 /*Main BEGIN*/
 #pageMain {
@@ -32,44 +39,103 @@
 }
 
 .pomodoroBox {
-	/*height: 400px;
-	width: 300px;*/
-	width: 30%;
-   height: 40%;
+	/*Properties*/
+	width: 300px;
+   height: 470px;
+   /*View*/
+   background: white;
+   /*Positon*/
    margin-top: 20px;
-   margin-left: 40px;
-	/*margin-top: 80px;*/
+   margin-left: 80px;
+  	/*Font*/
+  	font-size: 23px;
 }
 
 #orangePomodoroBox {
-	background: red;
+	/*background: red;*/
 	/*float: left;
 	margin-left: 30px;*/
 }
 
 #bluePomodoroBox {
-	background: blue;
+	/*background: blue;*/
 	/*float: left;
 	margin-left: 360px;*/
 }
-/*PomodoroApp END*/
+
+.pomodoroImg{
+	margin: 10px;
+}
+
+.timer{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+
+.button{
+	/*Properties*/
+	display: block;
+	/*View*/
+	width: 200px;
+	height: 50px;
+	background: yellow;
+	text-align: center;
+	line-height: 50px;
+	margin: 10px auto;
+}
+.button:hover{
+	cursor: pointer;
+	background: tomato;
+}
+.button:active{
+	background: orange;
+}
 
 #pomodoroInfo {
 	/*Properties*/
-	/*height: 530px;
-	width: 30%;*/
 	width: 30%;
-	margin-left: auto;
 	padding: 10px 15px;
-	text-align: justify;
-	color: white;
 	/*View*/
 	background: #C950FF;
 	/*Position*/
+	margin-left: auto;
+	/*Font*/
+	color: white;
+	
 }
 
+#infoHeader{
+	font-size: 21px;
+	text-align: center;
+	font-weight: 490;
+}	
+#infoMain{
+	font-weight: 420;
+	text-align: justify;
+	font-size: 18px;
+}
+#infoFooter{
+	font-weight: 430;
+	margin-top: 10px;
+	text-align: right;
+	font-size: 18px;
+}
 
-
+#srcInfoLink{
+	color: pink;
+}
+#srcInfoLink:hover{
+	text-decoration: underline;
+}
+#srcInfoLink:active{
+	color: red;
+}
+#srcInfoLink:visited{
+	color: blue;
+}
+/*PomodoroApp END*/
 .flex-item{
 	/*width: 200px;
    height: 200px;
@@ -79,11 +145,77 @@
 /*Footer BEGIN*/
 #pageFooter {
 	/*Properties*/
-
+	width: 100%;
+	height: 100px;
+	padding: 16px;
 	/*View*/
+	background: gray;
 	/*Position*/
 	margin-top: 20px;
-	/*margin-top: 550px;*/
-	clear: both;
+	
+}
+
+#contactBox{
+	display: inline-block;
+	height: 100%;
+	width: 340px;
+	background: white;
+}
+
+.contactElement{
+	list-style-type: none;
+}
+
+#shareBox{
+	width: 600px;
+	list-style-type:none;
+	margin: 0px 0px 0px 10px;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+}
+
+.shareElement{
+	float:left;
+}
+
+.shareButton {
+	/*Properties*/
+	width: 150px;
+	/*View*/
+	/*Behaviour*/
+	/*Font*/
+	color: #141C26;
+	line-height: 50px;
+	font-size: 22px;
+	display:block;
+	padding:8px 16px;
+}
+.shareButton:hover {
+	cursor: pointer;
+	color:#111;
+	background-color:#ddd;
+}
+
+#gitHubProfileBox{
+	width: 300px;
+	list-style-type:none;
+	margin: 0px 0px 0px 10px;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+}
+#gitHubProfileLink{
+	color: #141C26;
+	line-height: 50px;
+	font-size: 22px;
+	display:block;
+	padding:8px 16px;
+	background: white;
+}
+#gitHubProfileLink:hover{
+	cursor: pointer;
+	color:#111;
+	background-color:#ddd;
 }
 /*Footer END*/
