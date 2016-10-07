@@ -1,3 +1,4 @@
+@media (min-width: 1366px) and (max-width: 1600px){
 /*All Pomodoro_page BEGIN*/
 * {
 	margin: 0px;
@@ -20,6 +21,8 @@
 }
 
 /*All Pomodoro_page END*/
+
+
 /*Main BEGIN*/
 #pageMain {
 	/*Properties*/
@@ -252,3 +255,4 @@
 	background-color:#ddd;
 }
 /*Footer END*/
+}

@@ -1,0 +1,258 @@
+@media (min-width: 1366px) and (max-width: 1600px){
+/*All Pomodoro_page BEGIN*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#pageLayout{
+	padding: 0px 20px;
+}
+
+.flex-container{
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flex-container-footer{
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
+
+/*All Pomodoro_page END*/
+
+
+/*Main BEGIN*/
+#pageMain {
+	/*Properties*/
+	/*View*/
+	/*background: inherit;*/
+	/*Position*/
+}
+
+/*PomodoroApp BEGIN*/
+#pomodoroApp {
+	/*Properties*/
+	width: 100%;
+	height: 530px;
+	/*View*/
+	background: #E8C576;
+	/*Position*/
+}
+
+.pomodoroBox {
+	/*Properties*/
+	width: 300px;
+   height: 490px;
+   /*View*/
+   background: white;
+   border-radius: 10px;
+   /*Positon*/
+   margin-top: 20px;
+   margin-left: 80px;
+  	/*Font*/
+  	font-size: 23px;
+}
+
+#orangePomodoroBox {
+	/*background: red;*/
+	/*float: left;
+	margin-left: 30px;*/
+}
+
+#bluePomodoroBox {
+	/*background: blue;*/
+	/*float: left;
+	margin-left: 360px;*/
+}
+
+.pomodoroImg{
+	margin: 10px;
+}
+
+.timer{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+
+.button{
+	/*Properties*/
+	display: block;
+	/*View*/
+	width: 200px;
+	height: 50px;
+	background: yellow;
+	text-align: center;
+	line-height: 50px;
+	margin: 10px auto;
+}
+.button:hover{
+	cursor: pointer;
+	background: tomato;
+}
+.button:active{
+	background: orange;
+}
+
+#pomodoroInfo {
+	/*Properties*/
+	width: 30%;
+	padding: 10px 15px;
+	/*View*/
+	background: #C950FF;
+	/*Position*/
+	margin-left: auto;
+	/*Font*/
+	color: white;
+	
+}
+
+#infoHeader{
+	font-size: 21px;
+	text-align: center;
+	font-weight: 490;
+}	
+#infoMain{
+	font-weight: 420;
+	text-align: justify;
+	font-size: 18px;
+}
+#infoFooter{
+	font-weight: 430;
+	margin-top: 10px;
+	text-align: right;
+	font-size: 18px;
+}
+
+#srcInfoLink{
+	color: pink;
+}
+#srcInfoLink:hover{
+	text-decoration: underline;
+}
+#srcInfoLink:active{
+	color: red;
+}
+#srcInfoLink:visited{
+	color: blue;
+}
+/*PomodoroApp END*/
+.flex-item{
+	/*width: 200px;
+   height: 200px;
+   margin: 10px;*/
+}
+/*Main END*/
+/*Footer BEGIN*/
+#pageFooter {
+	/*Properties*/
+	width: 100%;
+	height: 100px;
+	padding: 16px;
+	/*View*/
+	background: gray;
+	/*Position*/
+	margin-top: 20px;
+	
+}
+
+#contactBox{
+	display: inline-block;
+	height: 100%;
+	width: 340px;
+	background: white;
+}
+
+.contactElement{
+	margin-left: 30px;
+	list-style-type: none;
+}
+
+#shareBox{
+	width: 600px;
+	list-style-type: none;
+	margin: 0px 0px 0px 10px;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+}
+
+.shareElement{
+	float:left;
+}
+
+.shareButton {
+	/*Properties*/
+	width: 150px;
+	/*View*/
+	/*Behaviour*/
+	/*Font*/
+	color: #141C26;
+	line-height: 50px;
+	font-size: 22px;
+	display:block;
+	padding:8px 16px;
+}
+.shareButton:hover {
+	cursor: pointer;
+	color:#111;
+	background-color:#ddd;
+}
+#fbShare{
+	color: white;
+	background: #07639D;
+}
+#fbShare:hover{
+	background: #0F639D;
+}
+
+#twShare{
+	color: white;
+	background: #3494CC;
+}
+#twShare:hover{
+	background: #3994CC;
+}
+
+#vkShare{
+	color: white;
+	background: #0376CA;
+}
+#vkShare:hover{
+	background: #0876CA;
+}
+
+#gpShare{
+	color: white;
+	background: #F84F3E;
+}
+#gpShare:hover{
+	background: red;	
+}
+
+#gitHubProfileBox{
+	width: 300px;
+	list-style-type:none;
+	margin: 0px 0px 0px 10px;
+	padding:0;
+	overflow:hidden;
+	text-align:center;
+}
+#gitHubProfileLink{
+	color: #141C26;
+	line-height: 50px;
+	font-size: 22px;
+	display:block;
+	padding:8px 16px;
+	background: white;
+}
+#gitHubProfileLink:hover{
+	cursor: pointer;
+	color:#111;
+	background-color:#ddd;
+}
+/*Footer END*/
+}
