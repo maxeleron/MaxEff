@@ -20,6 +20,7 @@
 				<li class="navElement"><a id="pomodoroNav" class="navButton textSelectNone hoverAnimation w3-padding-8">Pomodoro</a></li>
 				<li class="navElement"><a id="taskNav" class="navButton textSelectNone hoverAnimation w3-padding-8" href="">Task-Crash</a></li>
 				<li class="navElement"><a id="lifeTipsNav" class="navButton textSelectNone hoverAnimation w3-padding-8" href="">Life Tips</a></li>
+				<li class="navElement"><a id="commandTask" class="navButton textSelectNone hoverAnimation w3-padding-8" href="">Command task</a></li>
 				<li class="w3-right navElement w3-blue"><a id="login" class="logNav navButton textSelectNone">Login</a></li>
 			</nav>
 	</header>
@@ -39,7 +40,9 @@
 				</div>
 				<div id="workBackground" class="workImg"></div>
 				<div id="workTimer" class="timer textSelectNone"><span id="workMinutes">25</span>:<span id="workSeconds">00</span></div>
-				<a id="startWorkButton" class="button textSelectNone">Start work</a>
+				<a id="startWorkButton" class="button textSelectNone" style="/*display: none*/" onclick="startWorkTimer()">Start work</a>
+				<!--<a id="pauseWorkButton" class="button textSelectNone" onclick="startWorkTimer()">Pause</a>
+				<a id="stopWorkButton" class="button textSelectNone" onclick="startWorkTimer()">Stop<a>-->
 			</div>
 			<div id="bluePomodoroBox" class="pomodoroBox flex-item w3-card-8" >	
 				<img src="images/coverPomodoro.jpg" alt="" class="pomodoroImg">
@@ -66,7 +69,7 @@
 			<li class="shareElement"><a id="fbShare" class="shareButton textSelectNone hoverAnimation w3-padding-8 " href="">Facebook</a></li>
 			<li class="shareElement"><a id="twShare" class="shareButton textSelectNone hoverAnimation w3-padding-8">Twitter</a></li>
 			<li class="shareElement"><a id="vkShare" class="shareButton textSelectNone hoverAnimation w3-padding-8" href="">VK</a></li>
-			<li class="shareElement"><a id="gpShare" class="shareButton textSelectNone hoverAnimation w3-padding-8" href="">Google+</a></li>
+			<li class="shareElement"><a id="gpShare" class="shareButton textSelectNone hoverAnimation w3-padding-8">Google+</a></li>
 		</div>
 		<div id="gitHubProfileBox" class="flex-item w3-card-8">
 			<a id="gitHubProfileLink" href="https://github.com/maxeleron/">Me on GitHub</a>
